@@ -9,15 +9,18 @@ nav.header-container{
 	justify-content: space-around;
 	align-items: center;
 	min-height: 12vh;
-	background-color: rgb(20, 20, 20);
+	background-color: rgb(255,255,255);
+	border-bottom: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #333;
 }
 
 .logo{
-	color: rgb(214, 214, 214);
+	color: #333;
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	font-size: 40px;
-	background-color: rgb(20, 20, 20);
+	background-color: rgb(255,255,255);
 }
 
 .nav-links{
@@ -31,22 +34,22 @@ nav.header-container{
 }
 
 .nav-links a{
-	color: rgb(214, 214, 214);
+	color: #333;
 	text-decoration: none;
 	letter-spacing: 3px;
 	font-weight: bold;
-	font-size: 14px;
+	font-size: 1.5em;
 }
 
 div.logo{
 	text-align: left;
-	color: rgb(214, 214, 214);
+	color: #333;
 	letter-spacing: 3px;
 	display: flex;
 	font-weight: bold;
-	font-size: 250%;
+	font-size: 2.5em;
 	margin: 18px;
-	background-color: rgb(20, 20, 20);
+	background-color: rgb(255,255,255);
 }
 
 nav.header-container{

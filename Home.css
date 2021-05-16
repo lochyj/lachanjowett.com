@@ -8,7 +8,7 @@
 }
 
 .impression-body{
-	background-color: rgb(50, 50, 50);
+	background-color: rgb(255,255,255);
 	display: flex;
 }
 
@@ -17,7 +17,10 @@
 	letter-spacing: 3px;
 	display: flex;
 	font-weight: bold;
-	font-size: 260%;
+	font-size: 2em;
 	margin: 18px;
-	color: rgb(214, 214, 214);
-}
+	color: #333;
+	margin-top: 7.5em;
+	margin-left: 12em;
+	justify-content: space-around;
+	}
