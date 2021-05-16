@@ -21,6 +21,7 @@ nav.header-container{
 	letter-spacing: 5px;
 	font-size: 40px;
 	background-color: rgb(255,255,255);
+	font-weight: bold;
 }
 
 .nav-links{
