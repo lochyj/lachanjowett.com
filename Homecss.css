@@ -23,4 +23,20 @@
 	margin-top: 7.5em;
 	margin-left: 14.6em;
 	justify-content: space-around;
-	}
+}
+
+.second-middle-text{
+	text-align: center;
+	display: flex;
+	font-weight: bold;
+	justify-content: space-around;
+	margin-top: 15em;
+}
+
+.second-middle-description{
+	text-align: center;
+	display: flex;
+	font-weight: bold;
+	justify-content: space-around;
+	margin-top: 2em;
+}
