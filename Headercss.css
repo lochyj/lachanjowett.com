@@ -15,11 +15,11 @@ nav.header-container{
 	border-bottom-color: #333;
 }
 
-.logo{
+.header-logo{
 	color: #333;
 	text-transform: uppercase;
 	letter-spacing: 5px;
-	font-size: 40px;
+	font-size: 150%;
 	background-color: rgb(255,255,255);
 	font-weight: bold;
 }
