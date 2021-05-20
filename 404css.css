@@ -10,5 +10,5 @@
 .f_f-body-homelink{
     display: flex;
     text-align: center;
-    width: max-content;
+    width: 100%;
 }
