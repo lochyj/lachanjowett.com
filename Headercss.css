@@ -13,6 +13,7 @@ nav.header-container{
 	border-bottom: 1px;
 	border-bottom-style: solid;
 	border-bottom-color: #333;
+	padding: 1%;
 }
 
 .header-logo{
@@ -28,6 +29,8 @@ nav.header-container{
 	display: flex;
 	justify-content: space-around;
 	width: 25%;
+	padding-left: 1%;
+	padding-right: 1%;
 }
 
 .nav-links li{
