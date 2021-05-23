@@ -1,49 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');s
-
-*{
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
-	font-family: 'Alfa Slab One', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Alfa Slab One', sans-serif;
 }
 
-.impression-body{
-	background-color: rgb(255,255,255);
-	display: flex;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
+.impression-body {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.middle-text{
-	text-align: center;
-	display: flex;
-	font-weight: bold;
-	font-size: 2em;
-	color: #333;
-	justify-content: space-around;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 20%;
+.middle-text {
+    text-align: center;
+    display: flex;
+    font-weight: bold;
+    font-size: 2em;
+    color: #333;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
 }
 
-.second-middle-text{
-	display: flex;
-	font-weight: bold;
-	justify-content: space-around;
-	margin-top: 40%;
-	color: #333;
-	margin-left: auto;
-	margin-right: auto;
+.second-middle-text {
+    display: flex;
+    font-weight: bold;
+    justify-content: space-around;
+    margin-top: 40%;
+    color: #333;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.second-middle-description{
-	display: flex;
-	font-weight: bold;
-	justify-content: space-around;
-	margin-top: 2%;
-	color: #333;
-	margin-bottom: 35%;
-	margin-left: auto;
-	margin-right: auto;
+.second-middle-description {
+    display: flex;
+    font-weight: bold;
+    justify-content: space-around;
+    margin-top: 2%;
+    color: #333;
+    margin-bottom: 35%;
+    margin-left: auto;
+    margin-right: auto;
 }

@@ -1,61 +1,63 @@
-*{
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Alfa Slab One', sans-serif;
 }
 
-nav.header-container{
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	min-height: 12vh;
-	background-color: rgb(255,255,255);
-	border-bottom: 1px;
-	border-bottom-style: solid;
-	border-bottom-color: #333;
-	padding: 1%;
+nav.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 12vh;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #333;
+    padding: 1%;
 }
 
-.header-logo{
-	color: #333;
-	text-transform: uppercase;
-	letter-spacing: 5px;
-	font-size: 175%;
-	background-color: rgb(255,255,255);
-	font-weight: bold;
+.header-logo {
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 175%;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
 }
 
-.nav-links{
-	display: flex;
-	justify-content: space-around;
-	width: 25%;
-	padding-left: 1%;
-	padding-right: 1%;
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
-.nav-links li{
-	list-style: none;
+.nav-links li {
+    list-style: none;
 }
 
-.nav-links a{
-	color: #333;
-	text-decoration: none;
-	letter-spacing: 3px;
-	font-weight: bold;
-	font-size: 1.5em;
+.nav-links a {
+    color: #333;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 1.5em;
 }
 
-div.logo{
-	text-align: left;
-	color: #333;
-	letter-spacing: 3px;
-	display: flex;
-	font-weight: bold;
-	font-size: 2.5em;
-	margin: 18px;
-	background-color: rgb(255,255,255);
+div.logo {
+    text-align: left;
+    color: #333;
+    letter-spacing: 3px;
+    display: flex;
+    font-weight: bold;
+    font-size: 2.5em;
+    margin: 18px;
+    background-color: rgb(255, 255, 255);
 }
 
-nav.header-container{
-	text-align: right;
+nav.header-container {
+    text-align: right;
 }
