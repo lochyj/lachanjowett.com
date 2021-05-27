@@ -47,6 +47,9 @@
 .footer {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 2%;
+    border-top-style: solid;
+    border-top: 1px;
 }
 
 .footer-left {
