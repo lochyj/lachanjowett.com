@@ -22,7 +22,7 @@
     justify-content: space-around;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20%;
+    margin-top: 20s%;
 }
 
 .second-middle-text {
@@ -49,7 +49,11 @@
     justify-content: space-around;
     margin-bottom: 2%;
     border-top-style: solid;
+    border-top-color: #333;
     border-top: 1px;
+    padding: 1%;
+    background-color: rgb(255, 255, 255);
+    min-height: 10vh;
 }
 
 .footer-left {
