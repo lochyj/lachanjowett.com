@@ -44,6 +44,13 @@ nav.header-container {
     font-size: 1.5em;
 }
 
+.nav-links a :hover {
+    color: rgb(87, 87, 87);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 1.5em;
+}
+
 div.logo {
     text-align: left;
     color: #333;
