@@ -22,13 +22,13 @@
     justify-content: space-around;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20%;
+    margin-top: 26rem;
 }
 
 .second-middle-text {
     display: flex;
     justify-content: space-around;
-    margin-top: 40%;
+    margin-top: 45rem;
     color: #333;
     margin-left: auto;
     margin-right: auto;
@@ -37,9 +37,8 @@
 .second-middle-description {
     display: flex;
     justify-content: space-around;
-    margin-top: 2%;
+    margin-top: 1rem;
     color: #333;
-    margin-bottom: 35%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -47,19 +46,49 @@
 .footer {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 2%;
+    margin-bottom: 1rem;
     border-top-style: solid;
     border-top-color: #333;
     border-top: 1px;
     padding: 1%;
     background-color: rgb(255, 255, 255);
     min-height: 10vh;
+    margin-top: 30rem;
+    text-decoration: none;
+}
+
+.footer-right-li {
+    list-style: none;
+    color: #333;
+    text-decoration: none;
+}
+
+.left-social {
+    text-decoration: none;
+    color: #333;
+    margin-right: 0.03rem;
+}
+
+.social-left-img {
+    margin-right: 2rem;
+    padding-top: 0.1rem;
+}
+
+.middle-social {
+    text-decoration: none;
+    color: #333;
+}
+
+.right-social {
+    text-decoration: none;
+    color: #333;
 }
 
 .footer-left {
     text-align: left;
     justify-content: space-around;
     margin-right: auto;
+    text-decoration: none;
 }
 
 .footer-center {
