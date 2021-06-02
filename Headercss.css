@@ -41,14 +41,15 @@ nav.header-container {
     color: #333;
     text-decoration: none;
     letter-spacing: 3px;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 .nav-links a :hover {
-    color: rgb(87, 87, 87);
+    color: #444;
     text-decoration: none;
     letter-spacing: 3px;
-    font-size: 1.5em;
+    font-size: 1.5rem;
+    text-decoration: underline;
 }
 
 div.logo {
