@@ -22,13 +22,13 @@
     justify-content: space-around;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 26rem;
+    margin-top: 26.001rem;
 }
 
 .second-middle-text {
     display: flex;
     justify-content: space-around;
-    margin-top: 45rem;
+    margin-top: 45.001rem;
     color: #333;
     margin-left: auto;
     margin-right: auto;
@@ -37,7 +37,7 @@
 .second-middle-description {
     display: flex;
     justify-content: space-around;
-    margin-top: 1rem;
+    margin-top: 1.001rem;
     color: #333;
     margin-left: auto;
     margin-right: auto;
@@ -46,14 +46,14 @@
 .footer {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 1rem;
+    margin-bottom: 1.001rem;
     border-top-style: solid;
     border-top-color: #333;
     border-top: 1px;
     padding: 1%;
     background-color: rgb(255, 255, 255);
     min-height: 10vh;
-    margin-top: 30rem;
+    margin-top: 30.001rem;
     text-decoration: none;
 }
 
