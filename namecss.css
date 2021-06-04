@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Alfa Slab One', sans-serif;
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+}

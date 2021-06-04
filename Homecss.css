@@ -17,19 +17,19 @@
 .middle-text {
     text-align: center;
     display: flex;
-    font-size: 2em;
-    color: #333;
+    font-size: 3rem;
+    color: #222;
     justify-content: space-around;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 26.001rem;
+    margin-top: 26rem;
 }
 
 .second-middle-text {
     display: flex;
     justify-content: space-around;
-    margin-top: 45.001rem;
-    color: #333;
+    margin-top: 45rem;
+    color: #222;
     margin-left: auto;
     margin-right: auto;
 }
@@ -37,35 +37,37 @@
 .second-middle-description {
     display: flex;
     justify-content: space-around;
-    margin-top: 1.001rem;
-    color: #333;
+    margin-top: 1rem;
+    color: #222;
     margin-left: auto;
     margin-right: auto;
+    max-width: 40rem;
+    text-align: center;
 }
 
 .footer {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 1.001rem;
+    margin-bottom: 1rem;
     border-top-style: solid;
-    border-top-color: #333;
+    border-top-color: #222;
     border-top: 1px;
     padding: 1%;
     background-color: rgb(255, 255, 255);
     min-height: 10vh;
-    margin-top: 30.001rem;
+    margin-top: 40rem;
     text-decoration: none;
 }
 
 .footer-right-li {
     list-style: none;
-    color: #333;
+    color: #222;
     text-decoration: none;
 }
 
 .left-social {
     text-decoration: none;
-    color: #333;
+    color: #222;
     margin-right: 0.03rem;
 }
 
@@ -74,14 +76,9 @@
     padding-top: 0.1rem;
 }
 
-.middle-social {
-    text-decoration: none;
-    color: #333;
-}
-
 .right-social {
     text-decoration: none;
-    color: #333;
+    color: #222;
 }
 
 .footer-left {
@@ -96,6 +93,9 @@
     justify-content: space-around;
     margin-right: auto;
     margin-left: auto;
+    list-style: none;
+    text-decoration: none;
+    color: #222;
 }
 
 .footer-right {

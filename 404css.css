@@ -10,13 +10,13 @@
     display: flex;
     text-align: center;
     width: 100%;
-    color: #333;
+    color: #222;
 }
 
 .linkhome {
     text-decoration: none;
     list-style: none;
-    color: #333;
+    color: #222;
     display: below;
     width: 100%;
 }
