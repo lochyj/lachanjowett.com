@@ -29,9 +29,6 @@ nav.header-container {
 .nav-links {
     display: flex;
     justify-content: space-around;
-    width: 4rem;
-    padding-left: 0.2rem;
-    padding-right: 0.2rem;
 }
 
 .nav-links li {
@@ -41,7 +38,21 @@ nav.header-container {
 .nav-links a {
     color: #222;
     text-decoration: none;
-    letter-spacing: 0.09rem;
+    font-size: 1.5rem;
+}
+
+.nl1 {
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.nl2 {
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.nl3 {
+    padding: 1rem;
     font-size: 1.5rem;
 }
 
