@@ -7,7 +7,6 @@
 }
 
 .impression-body {
-    background-color: rgb(255, 255, 255);
     display: flex;
     text-align: center;
     margin-left: auto;
@@ -22,7 +21,7 @@
     justify-content: space-around;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 26rem;
+    margin-top: 17rem;
 }
 
 .second-middle-text {
