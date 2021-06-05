@@ -6,6 +6,10 @@
     font-family: 'Alfa Slab One', sans-serif;
 }
 
+::selection{
+    background-color: #222;
+    color: rgb(255, 255, 255)
+}
 .impression-body {
     display: flex;
     text-align: center;
