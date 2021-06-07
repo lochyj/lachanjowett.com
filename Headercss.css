@@ -14,7 +14,7 @@ nav.header-container {
     color: #222;
     text-transform: uppercase;
     letter-spacing: 0.2;
-    font-size: 2.3rem;
+    font-size: 2.6rem;
     background-color: rgb(255, 255, 255);
 }
 
@@ -31,13 +31,13 @@ nav.header-container {
 .nav-links a {
     color: #222;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 .nav-links ul :hover {
     color: #333;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     text-decoration: underline;
     font-weight: bold;
 }
@@ -47,7 +47,7 @@ div.logo {
     color: #222;
     letter-spacing: 0.3rem;
     display: flex;
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin: 1.4rem;
     background-color: rgb(255, 255, 255);
 }
