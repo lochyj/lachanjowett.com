@@ -4,6 +4,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Andika New Basic', sans-serif;
+    background-color: rgb(255, 255, 255);
 }
 
 ::selection {
