@@ -1,15 +1,8 @@
-.impression-body {
-    display: flex;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .middle-text {
     text-align: center;
     display: flex;
     font-size: 4rem;
-    color: #222;
+    color: #999;
     justify-content: space-around;
     margin-left: auto;
     margin-right: auto;
@@ -22,77 +15,88 @@
     justify-content: space-around;
     margin-top: 2rem;
     font-size: 1.5rem;
-    color: #222;
+    color: #999;
     margin-left: auto;
     margin-right: auto;
-    max-width: 57rem;
+    max-width: 87%;
     text-align: center;
 }
 
-.downarrow img {
+.second-impression a {
+    text-align: center;
     display: flex;
-    max-width: 4vh;
-    max-height: 4vh;
+    font-size: 3rem;
+    color: #999;
+    justify-content: space-around;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 18rem;
-}
-
-.footer {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 1rem;
-    border-top-style: solid;
-    border-top-color: #222;
-    border-top: 1px;
-    padding: 1%;
-    background-color: rgb(255, 255, 255);
-    min-height: 10vh;
     margin-top: 40rem;
+    position: relative;
     text-decoration: none;
 }
 
-.footer-right-li {
-    list-style: none;
-    color: #222;
-    text-decoration: none;
+.second-impression a:hover {
+    text-decoration: underline;
+    color: #888;
 }
 
-.left-social {
-    text-decoration: none;
-    color: #222;
-    margin-right: 0.03rem;
-}
-
-.social-left-img {
-    margin-right: 2rem;
-    padding-top: 0.1rem;
-}
-
-.right-social {
-    text-decoration: none;
-    color: #222;
-}
-
-.footer-left {
-    text-align: left;
+.second-impression-p {
+    display: flex;
     justify-content: space-around;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: #999;
+    margin-left: auto;
     margin-right: auto;
-    text-decoration: none;
-}
-
-.footer-center {
+    max-width: 87%;
     text-align: center;
-    justify-content: space-around;
-    margin-right: auto;
-    margin-left: auto;
-    list-style: none;
-    text-decoration: none;
-    color: #222;
 }
 
-.footer-right {
-    text-align: right;
+.wt a {
+    text-align: center;
+    display: flex;
+    font-size: 3rem;
+    color: #999;
     justify-content: space-around;
     margin-left: auto;
+    margin-right: auto;
+    margin-top: 40rem;
+    position: relative;
+    text-decoration: none;
+}
+
+.wt a:hover {
+    text-decoration: underline;
+    color: #888;
+}
+
+.wt-p {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: #999;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 87%;
+    text-align: center;
+}
+
+.supportme a {
+    text-align: center;
+    display: flex;
+    font-size: 3rem;
+    color: #999;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40rem;
+    position: relative;
+    margin-bottom: 25rem;
+    text-decoration: none;
+}
+
+.supportme a:hover {
+    text-decoration: underline;
+    color: #888;
 }

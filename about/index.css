@@ -1,0 +1,17 @@
+.a {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    text-align: center;
+    color: #999;
+}
+
+.aa {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    text-align: center;
+    color: #999;
+}

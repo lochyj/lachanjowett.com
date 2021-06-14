@@ -4,10 +4,26 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Andika New Basic', sans-serif;
-    background-color: rgb(255, 255, 255);
+    background-color: #000;
 }
 
 ::selection {
-    background-color: rgba(0, 255, 255, 0.5);
-    color: #222;
+    background-color: #999;
+    color: #000;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+ ::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0);
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #777;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #999;
 }
