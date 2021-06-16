@@ -4,12 +4,12 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Andika New Basic', sans-serif;
-    background-color: #000;
+    background-color: #0E273C;
 }
 
 ::selection {
     background-color: #999;
-    color: #000;
+    color: #0E273C;
 }
 
 ::-webkit-scrollbar {
