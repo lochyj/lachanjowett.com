@@ -1,102 +1,223 @@
-.middle-text {
-    text-align: center;
-    display: flex;
-    font-size: 4rem;
-    color: #999;
-    justify-content: space-around;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15rem;
-    position: relative;
-}
+@media only screen and (min-width: 600px) {
+    .header-container h2 {
+        display: flex;
+        align-items: left;
+        text-align: left;
+        font-size: 2.5rem;
+        margin-left: 1rem;
+        color: #999;
+    }
 
-.para-middle-text {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 2rem;
-    font-size: 1.5rem;
-    color: #999;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 87%;
-    text-align: center;
-}
+    .middle-text {
+        text-align: center;
+        display: flex;
+        font-size: 4rem;
+        color: #999;
+        justify-content: space-around;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15rem;
+        position: relative;
+    }
 
-.second-impression a {
-    text-align: center;
-    display: flex;
-    font-size: 3rem;
-    color: #999;
-    justify-content: space-around;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40rem;
-    position: relative;
-    text-decoration: none;
-}
+    .para-middle-text {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        color: #999;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 87%;
+        text-align: center;
+    }
 
-.second-impression a:hover {
-    text-decoration: underline;
-    color: #888;
-}
+    .second-impression a {
+        text-align: center;
+        display: flex;
+        font-size: 3rem;
+        color: #999;
+        justify-content: space-around;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40rem;
+        position: relative;
+        text-decoration: none;
+    }
 
-.second-impression-p {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 2rem;
-    font-size: 1.5rem;
-    color: #999;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 87%;
-    text-align: center;
-}
+    .second-impression a:hover {
+        text-decoration: underline;
+        color: #888;
+    }
 
-.wt a {
-    text-align: center;
-    display: flex;
-    font-size: 3rem;
-    color: #999;
-    justify-content: space-around;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40rem;
-    position: relative;
-    text-decoration: none;
-}
+    .second-impression-p {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        color: #999;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 87%;
+        text-align: center;
+    }
 
-.wt a:hover {
-    text-decoration: underline;
-    color: #888;
-}
+    .wt a {
+        text-align: center;
+        display: flex;
+        font-size: 3rem;
+        color: #999;
+        justify-content: space-around;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40rem;
+        position: relative;
+        text-decoration: none;
+    }
 
-.wt-p {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 2rem;
-    font-size: 1.5rem;
-    color: #999;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 87%;
-    text-align: center;
-}
+    .wt a:hover {
+        text-decoration: underline;
+        color: #888;
+    }
 
-.supportme a {
-    text-align: center;
-    display: flex;
-    font-size: 3rem;
-    color: #999;
-    justify-content: space-around;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40rem;
-    position: relative;
-    margin-bottom: 25rem;
-    text-decoration: none;
-}
+    .wt-p {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        color: #999;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 87%;
+        text-align: center;
+    }
 
-.supportme a:hover {
-    text-decoration: underline;
-    color: #888;
+    .supportme a {
+        text-align: center;
+        display: flex;
+        font-size: 3rem;
+        color: #999;
+        justify-content: space-around;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40rem;
+        position: relative;
+        margin-bottom: 25rem;
+        text-decoration: none;
+    }
+
+    .supportme a:hover {
+        text-decoration: underline;
+        color: #888;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .header-container h2 {
+        display: flex;
+        align-items: left;
+        text-align: left;
+        font-size: 1.7rem;
+        margin-left: 1rem;
+        color: #999;
+    }
+
+    .middle-text {
+        text-align: center;
+        display: flex;
+        font-size: 3rem;
+        color: #999;
+        justify-content: space-around;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5rem;
+        position: relative;
+    }
+
+    .para-middle-text {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 1.5rem;
+        font-size: 1.5rem;
+        color: #999;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 87%;
+        text-align: center;
+    }
+
+    .second-impression a {
+        text-align: center;
+        display: flex;
+        font-size: 2rem;
+        color: #999;
+        justify-content: space-around;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30rem;
+        position: relative;
+        text-decoration: none;
+    }
+
+    .second-impression a:hover {
+        text-decoration: underline;
+    }
+
+    .second-impression-p {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 2rem;
+        font-size: 1.2rem;
+        color: #999;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 87%;
+        text-align: center;
+    }
+
+    .wt a {
+        text-align: center;
+        display: flex;
+        font-size: 2rem;
+        color: #999;
+        justify-content: space-around;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30rem;
+        position: relative;
+        text-decoration: none;
+    }
+
+    .wt a:hover {
+        text-decoration: underline;
+    }
+
+    .wt-p {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 2rem;
+        font-size: 1.2rem;
+        color: #999;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 87%;
+        text-align: center;
+    }
+
+    .supportme a {
+        text-align: center;
+        display: flex;
+        font-size: 2rem;
+        color: #999;
+        justify-content: space-around;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30rem;
+        position: relative;
+        margin-bottom: 17rem;
+        text-decoration: none;
+    }
+
+    .supportme a:hover {
+        text-decoration: underline;
+    }
 }
