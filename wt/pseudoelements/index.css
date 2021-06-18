@@ -1,0 +1,55 @@
+*{
+    margin-left: 3vw;
+}
+li {
+    list-style: none;
+}
+
+.a {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    text-align: center;
+    color: #999;
+}
+
+.aa {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    text-align: center;
+    color: #999;
+    text-decoration: none;
+}
+
+.pec-div{
+    display: block;
+    transition-duration: 0.5s;
+}
+
+.pec-div li {
+    cursor: pointer;
+}
+
+.pec-div p{
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    transition: all 1s ease;
+    display: none;
+}
+
+.pec-div li:hover > p,
+.pec-div p:hover{
+    visibility: visible;
+    opacity: 1;
+    display: flex;
+
+}
+
+.pec-div p{
+    clear: both;
+    width: 100%;
+}
