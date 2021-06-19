@@ -39,11 +39,7 @@ Use with input element with this specificaly: input type="{File type}" id="fileU
 
 the ::selection pseudo element effects text when its highlighted, it also affecs images and other html elements
 
-## Sources
-
-* Mozilla: developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
-
-# pseudo classes
+# Pseudo Classes
 
 ## :hover
 
@@ -60,3 +56,7 @@ effects a tags that have been clicked on
 ## :link
 
 effects a tags that haven't been clicked on
+
+# Sources
+
+* Mozilla: developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
