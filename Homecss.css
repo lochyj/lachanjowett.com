@@ -7,7 +7,6 @@
         margin-left: 1rem;
         color: #999;
     }
-
     .middle-text {
         text-align: center;
         display: flex;
@@ -19,7 +18,6 @@
         margin-top: 20vh;
         position: relative;
     }
-
     .para-middle-text {
         display: flex;
         justify-content: space-around;
@@ -31,7 +29,6 @@
         max-width: 87%;
         text-align: center;
     }
-
     .second-impression a {
         text-align: center;
         display: flex;
@@ -44,12 +41,10 @@
         position: relative;
         text-decoration: none;
     }
-
     .second-impression a:hover {
         text-decoration: underline;
         color: #888;
     }
-
     .second-impression-p {
         display: flex;
         justify-content: space-around;
@@ -61,7 +56,6 @@
         max-width: 87%;
         text-align: center;
     }
-
     .wt a {
         text-align: center;
         display: flex;
@@ -74,12 +68,10 @@
         position: relative;
         text-decoration: none;
     }
-
     .wt a:hover {
         text-decoration: underline;
         color: #888;
     }
-
     .wt-p {
         display: flex;
         justify-content: space-around;
@@ -91,7 +83,6 @@
         max-width: 87%;
         text-align: center;
     }
-
     .supportme a {
         text-align: center;
         display: flex;
@@ -105,12 +96,10 @@
         text-decoration: none;
         margin-bottom: 1rem;
     }
-
     .supportme a:hover {
         text-decoration: underline;
         color: #888;
     }
-
     .supportme-p {
         display: flex;
         margin-top: 2rem;
@@ -122,15 +111,16 @@
         text-align: center;
         margin-bottom: 25rem;
     }
-    .supportme-p a{
+    .supportme-p a {
         text-decoration: none;
         color: #999;
     }
-    .supportme-p a:hover{
+    .supportme-p a:hover {
         color: #999;
         text-decoration: underline;
     }
 }
+
 @media only screen and (max-width: 600px) {
     .header-container h2 {
         display: flex;
@@ -140,7 +130,6 @@
         margin-left: 1rem;
         color: #999;
     }
-
     .middle-text {
         text-align: center;
         display: flex;
@@ -152,7 +141,6 @@
         margin-top: 5rem;
         position: relative;
     }
-
     .para-middle-text {
         display: flex;
         justify-content: space-around;
@@ -164,7 +152,6 @@
         max-width: 87%;
         text-align: center;
     }
-
     .second-impression a {
         text-align: center;
         display: flex;
@@ -177,11 +164,9 @@
         position: relative;
         text-decoration: none;
     }
-
     .second-impression a:hover {
         text-decoration: underline;
     }
-
     .second-impression-p {
         display: flex;
         justify-content: space-around;
@@ -193,7 +178,6 @@
         max-width: 87%;
         text-align: center;
     }
-
     .wt a {
         text-align: center;
         display: flex;
@@ -206,11 +190,9 @@
         position: relative;
         text-decoration: none;
     }
-
     .wt a:hover {
         text-decoration: underline;
     }
-
     .wt-p {
         display: flex;
         justify-content: space-around;
@@ -222,7 +204,6 @@
         max-width: 87%;
         text-align: center;
     }
-
     .supportme a {
         text-align: center;
         display: flex;
@@ -236,7 +217,6 @@
         margin-bottom: 17rem;
         text-decoration: none;
     }
-
     .supportme a:hover {
         text-decoration: underline;
     }

@@ -1,55 +1,82 @@
-*{
-    margin-left: 3vw;
+* {
+    color: #999;
 }
+
+.title {
+    margin-bottom: 15vh;
+    display: flex;
+    align-items: left;
+    font-size: 1.5rem;
+}
+
+.hiw {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.hiw-p {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+    max-width: 90vw;
+    margin-bottom: 20vh;
+}
+
 li {
     list-style: none;
 }
 
-.a {
-    display: flex;
-    margin-right: auto;
-    margin-left: auto;
-    align-items: center;
-    text-align: center;
-    color: #999;
+.pec-div {
+    margin-left: 4vw;
+    margin-bottom: 10vh;
 }
 
-.aa {
-    display: flex;
-    margin-right: auto;
-    margin-left: auto;
-    align-items: center;
-    text-align: center;
-    color: #999;
-    text-decoration: none;
+.pe-h2 {
+    margin-bottom: 2vh;
 }
 
-.pec-div{
-    display: block;
-    transition-duration: 0.5s;
+.pc-h2 {
+    margin-bottom: 2vh;
+    margin-top: 5vh;
 }
 
-.pec-div li {
-    cursor: pointer;
+.pe {
+    margin-left: 4vw;
+    font-size: 1.25rem;
 }
 
-.pec-div p{
-    visibility: hidden;
-    opacity: 0;
-    position: absolute;
-    transition: all 1s ease;
-    display: none;
+.pe h2 {
+    font-size: 1.9rem;
+    margin-bottom: 4vh;
+    margin-top: 10vh;
 }
 
-.pec-div li:hover > p,
-.pec-div p:hover{
-    visibility: visible;
-    opacity: 1;
-    display: flex;
-
+.pe h5 {
+    font-size: 1.7rem
 }
 
-.pec-div p{
-    clear: both;
-    width: 100%;
+.pe div {
+    margin-bottom: 4vh;
+}
+
+.pc {
+    margin-left: 4vw;
+}
+
+.pc h2 {
+    font-size: 1.9rem;
+    margin-bottom: 4vh;
+    margin-top: 10vh;
+}
+
+.pc h5 {
+    font-size: 1.7rem;
+}
+
+.pc div {
+    margin-bottom: 4vh;
 }

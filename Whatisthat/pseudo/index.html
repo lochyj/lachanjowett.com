@@ -6,187 +6,355 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="index.css" rel="stylesheet" type="text/css">
-    <link href="../Global/Global.css" rel="stylesheet" type="text/css">
+    <link href="../../Global/Global.css" rel="stylesheet" type="text/css">
     <title>Pseudo, Elements and Classes | Coming Soon!</title>
 </head>
 
 <body>
-    <h2 class="Title">
+    <h2 class="title">
         Pseudo, Elements and Classes
     </h2>
-    <div class="pec-div">
-        <h2 class="pe-h2">
-            List of Pseudo Elements:
+    <div class="hiw">
+        <h2>
+            What is a pseudo element and class?
         </h2>
+    </div>
+    <div class="hiw-p">
+        <p>
+            Well, this is a very broard question and it is very hard to answer but in short it is a selector similar to the class selector and the element selector. it activates the style when the selected action happens, such as :hover will activate when someone hovers over selected element
+        </p>
+    </div>
+    <div class="pec-div">
+        <h3 class="pe-h2">
+            List of Pseudo Elements:
+        </h3>
         <ul class="pe-ul">
             <li class="pe-1">
                 ::After
-                <p>
-                    fil
-                </p>
             </li>
             <li class="pe-2">
                 ::Before
-                <p>
-                    fil
-                </p>
             </li>
             <li class="pe-3">
                 ::First-Letter
-                <p>
-                    fil
-                </p>
             </li>
             <li class="pe-4">
                 ::First-Line
-                <p>
-                    fil
-                </p>
             </li>
             <li class="pe-5">
                 ::Placeholder
-                <p>
-                    fil
-                </p>
             </li>
             <li class="pe-6">
-                ::File-selector-button
-                <p>
-                    fil
-                </p>
+                ::File-selector-button  
             </li>
             <li class="pe-7">
                 ::Selection
-                <p>
-                    fil
-                </p>
             </li>
         </ul>
-        <h2 class="pc-h2">
+        <h3 class="pc-h2">
             List of Pseudo Classes:
-        </h2>
+        </h3>
         <ul class="pc-ul">
-            <li class="pc-1">
-                :Any-link
-                <p>
-                    fil
-                </p>
+            <li>
+                :Any-link  
             </li>
-            <li class="pc-2">
+            <li>
                 :Link
-                <p>
-                    fil
-                </p>
             </li>
-            <li class="pc-3">
-                :Visited
-                <p>
-                    fil
-                </p>
+            <li>
+                :Visited 
             </li>
-            <li class="pc-4">
-                :Local-link
-                <p>
-                    fil
-                </p>
+            <li>
+                :Local-link 
             </li>
-            <li class="pc51">
-                :Hover
-                <p>
-                    fil
-                </p>
+            <li>
+                :Hover 
             </li>
-            <li class="pc-6">
+            <li>
                 :Active
-                <p>
-                    fil
-                </p>
             </li>
-            <li class="pc-7">
-                :Autofill
-                <p>
-                    fil
-                </p>
+            <li>
+                :Auto
             </li>
-            <li class="pc-8">
+            <li>
                 :Enabled
-                <p>
-                    fil
-                </p>
             </li>
-            <li class="pc-9">
+            <li>
                 :Disabled
-                <p>
-                    fil
-                </p>
             </li>
-            <li class="pc-10">
+            <li>
                 :Read-only
-                <p>
-                    fil
-                </p>
             </li>
-            <li class="pc-11">
+            <li>
                 :Read-write
-                <p>
-                    fil
-                </p>
             </li>
-            <li class="pc-12">
+            <li>
                 :Checked
-                <p>
-                    fil
-                </p>
             </li>
-            <li class="pc-13">
+            <li>
                 :Blank
-                <p>
-                    fil
-                </p>
             </li>
-            <li class="pc-14">
-                :Valid
-                <p>
-                    fil
-                </p>
+            <li>
+                :Valid 
             </li>
-            <li class="pc-15">
+            <li>
                 :Invalid
-                <p>
-                    fil
-                </p>
             </li>
-            <li class="pc-16">
+            <li>
                 :In-range
-                <p>
-                    fil
-                </p>
             </li>
-            <li class="pc-17">
+            <li>
                 :Out-of-range
-                <p>
-                    fil
-                </p>
             </li>
-            <li class="pc-18">
-                :Required
-                <p>
-                    fil
-                </p>
+            <li>
+                :Required 
             </li>
-            <li class="pc-19">
+            <li>
                 :Optional
-                <p>
-                    fil
-                </p>
             </li>
-            <li class="pc-20">
+            <li>
                 :User-invalid
-                <p>
-                    fil
-                </p>
             </li>
         </ul>
+    </div>
+    <div class="pe">
+        <h2>
+            Pseudo elements in detail
+        </h2>
+        <div class="pe-detail">
+            <div>
+                <h5>
+                    ::after
+                </h5>
+                <p>
+                    Use with any element
+                    The styling you add here will affect styling before the element specified, for example: <br>
+                    Selected content<br>
+                    ::After selects here
+                </p>
+            </div>
+            <div>
+                <h5>
+                    ::before
+                </h5>
+                <p>
+                    Use with any element
+                    The styling you add here will affect styling before the element specified, for example: <br>
+                    ::Before selects here<br>
+                    Selected content
+                </p>
+            </div>
+            <div>
+                <h5>
+                    ::first-letter
+                </h5>
+                <p> 
+                    Use with any text element
+                    ::first-letter does exactally what is says. It selects the first letter of a text element, for example:<br>
+                    Selected Content<br>
+                    ::first-letter selects the "S" but not the "C" as it selects the first letter at the start of the content
+                </p>
+            </div>
+            <div>
+                <h5>
+                    ::first-line
+                </h5>
+                <p>
+                    fil
+                </p>
+            </div>
+            <div>
+                <h5>
+                    ::placeholder
+                </h5>
+                <p>
+                    fil
+                </p>
+            </div>
+            <div>
+                <h5>
+                    ::file-selector-button
+                </h5>
+                <p>
+                    fil
+                </p>
+            </div>
+            <div>
+                <h5>
+                    ::selection
+                </h5>
+                <p>
+                    fil
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="pc">
+        <h2>
+            Pseudo classes in detail
+        </h2>
+        <div class="pc-detail">
+            <div>
+                <h5>
+                    :any-link
+                </h5>
+                <p>
+                    fil
+                </p>
+            </div>
+            <div>
+                <h5>
+                    :link
+                </h5>
+                <p>
+                    fil
+                </p>
+            </div>
+            <div>
+                <h5>
+                    :visited
+                </h5>
+                <p>
+                    fil
+                </p>
+            </div>
+            <div>
+                <h5>
+                    :local-link
+                </h5>
+                <p>
+                    fil
+                </p>
+            </div>
+            <div>
+                <h5>
+                    :hover
+                </h5>
+                <p>
+                    fil
+                </p>
+            </div>
+            <div>
+                <h5>
+                    :active
+                </h5>
+                <p>
+                    fil
+                </p>
+            </div>
+            <div>
+                <h5>
+                    :auto
+                </h5>
+                <p>
+                    fil
+                </p>
+            </div>
+            <div>
+                <h5>
+                    :enabled
+                </h5>
+                <p>
+                    fil
+                </p>
+            </div>
+            <div>
+                <h5>
+                    :disabled
+                </h5>
+                <p>
+                    fil
+                </p>
+            </div>
+            <div>
+                <h5>
+                    :read-only
+                </h5>
+                <p>
+                    fil
+                </p>
+            </div>
+            <div>
+                <h5>
+                    :read-write
+                </h5>
+                <p>
+                    fil
+                </p>
+            </div>
+            <div>
+                <h5>
+                    :checked
+                </h5>
+                <p>
+                    fil
+                </p>
+            </div>
+            <div>
+                <h5>
+                    :blank
+                </h5>
+                <p>
+                    fil
+                </p>
+            </div>
+            <div>
+                <h5>
+                    :valid
+                </h5>
+                <p>
+                    fil
+                </p>
+            </div>
+            <div>
+                <h5>
+                    :invalid
+                </h5>
+                <p>
+                    fil
+                </p>
+            </div>
+            <div>
+                <h5>
+                    :in-range
+                </h5>
+                <p>
+                    fil
+                </p>
+            </div>
+            <div>
+                <h5>
+                    :out-of-range
+                </h5>
+                <p>
+                    fil
+                </p>
+            </div>
+            <div>
+                <h5>
+                    :required
+                </h5>
+                <p>
+                    fil
+                </p>
+            </div>
+            <div>
+                <h5>
+                    :optional
+                </h5>
+                <p>
+                    fil
+                </p>
+            </div>
+            <div>
+                <h5>
+                    :user-invalid
+                </h5>
+                <p>
+                    fil
+                </p>
+            </div>
+        </div>
     </div>
 </body>
 
