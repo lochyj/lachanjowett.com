@@ -1,223 +1,72 @@
 @media only screen and (min-width: 600px) {
-    .header-container h2 {
+    .a h2 {
         display: flex;
         align-items: left;
         text-align: left;
-        font-size: 2rem;
+        font-size: 2.5rem;
         margin-left: 1rem;
-        color: #999;
+        color: #000000;
     }
-    .middle-text {
-        text-align: center;
-        display: flex;
-        font-size: 4rem;
-        color: #999;
-        justify-content: space-around;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 20vh;
-        position: relative;
-    }
-    .para-middle-text {
-        display: flex;
-        justify-content: space-around;
-        margin-top: 2rem;
-        font-size: 1.5rem;
-        color: #999;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 87%;
-        text-align: center;
-    }
-    .second-impression a {
-        text-align: center;
-        display: flex;
+    .b {
         font-size: 3rem;
-        color: #999;
-        justify-content: space-around;
-        margin-left: auto;
+        margin-left: 10vw;
         margin-right: auto;
-        margin-top: 40rem;
-        position: relative;
-        text-decoration: none;
+        margin-top: 15vh;
+        background-color: #d4d4d4;
+        border-radius: 10px;
+        margin-right: 20vh;
+        padding-bottom: 4vh;
     }
-    .second-impression a:hover {
-        text-decoration: underline;
-        color: #888;
+    .b h1 {
+        font-size: 5rem;
+        color: #000000;
+        background-color: #d4d4d4;
+        border-radius: 10px;
+        padding-left: 11px;
     }
-    .second-impression-p {
-        display: flex;
-        justify-content: space-around;
-        margin-top: 2rem;
-        font-size: 1.5rem;
-        color: #999;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 87%;
-        text-align: center;
+    .b p {
+        font-size: 2rem;
+        background-color: #d4d4d4;
+        padding-left: 11px;
     }
-    .wt a {
-        text-align: center;
-        display: flex;
+    .b a {
         font-size: 3rem;
-        color: #999;
-        justify-content: space-around;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 40rem;
-        position: relative;
+        background-color: #d4d4d4;
+        color: #000000;
+        margin-left: 11px;
+        margin-top: 5vh;
+        padding: 5px;
+        border-radius: 6px;
+    }
+    .b a:hover {
+        background-color: #e7e7e7;
+        color: #1d1d1d;
+        border-radius: 6px;
         text-decoration: none;
     }
-    .wt a:hover {
-        text-decoration: underline;
-        color: #888;
+    .c {
+        margin-top: 30vh;
+        margin-left: 10vw;
+        margin-bottom: 7vh;
+        border-radius: 10px;
+        background-color: #d4d4d4;
     }
-    .wt-p {
-        display: flex;
-        justify-content: space-around;
-        margin-top: 2rem;
-        font-size: 1.5rem;
-        color: #999;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 87%;
-        text-align: center;
-    }
-    .supportme a {
-        text-align: center;
-        display: flex;
+    .ca {
         font-size: 3rem;
-        color: #999;
-        justify-content: space-around;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 40rem;
-        position: relative;
-        text-decoration: none;
-        margin-bottom: 1rem;
+        color: #000000;
+        border-radius: 10px;
+        background-color: #d4d4d4;
     }
-    .supportme a:hover {
-        text-decoration: underline;
-        color: #888;
-    }
-    .supportme-p {
-        display: flex;
-        margin-top: 2rem;
-        font-size: 1.5rem;
-        color: #999;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 87%;
-        text-align: center;
-        margin-bottom: 25rem;
-    }
-    .supportme-p a {
-        text-decoration: none;
-        color: #999;
-    }
-    .supportme-p a:hover {
-        color: #999;
-        text-decoration: underline;
+    .cb {
+        font-size: 2rem;
+        border-radius: 10px;
+        background-color: #d4d4d4;
+        margin-right: 10vw;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    .header-container h2 {
-        display: flex;
-        align-items: left;
-        text-align: left;
-        font-size: 1.7rem;
-        margin-left: 1rem;
+    * {
         color: #999;
-    }
-    .middle-text {
-        text-align: center;
-        display: flex;
-        font-size: 3rem;
-        color: #999;
-        justify-content: space-around;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 5rem;
-        position: relative;
-    }
-    .para-middle-text {
-        display: flex;
-        justify-content: space-around;
-        margin-top: 1.5rem;
-        font-size: 1.5rem;
-        color: #999;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 87%;
-        text-align: center;
-    }
-    .second-impression a {
-        text-align: center;
-        display: flex;
-        font-size: 2rem;
-        color: #999;
-        justify-content: space-around;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 30rem;
-        position: relative;
-        text-decoration: none;
-    }
-    .second-impression a:hover {
-        text-decoration: underline;
-    }
-    .second-impression-p {
-        display: flex;
-        justify-content: space-around;
-        margin-top: 2rem;
-        font-size: 1.2rem;
-        color: #999;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 87%;
-        text-align: center;
-    }
-    .wt a {
-        text-align: center;
-        display: flex;
-        font-size: 2rem;
-        color: #999;
-        justify-content: space-around;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 30rem;
-        position: relative;
-        text-decoration: none;
-    }
-    .wt a:hover {
-        text-decoration: underline;
-    }
-    .wt-p {
-        display: flex;
-        justify-content: space-around;
-        margin-top: 2rem;
-        font-size: 1.2rem;
-        color: #999;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 87%;
-        text-align: center;
-    }
-    .supportme a {
-        text-align: center;
-        display: flex;
-        font-size: 2rem;
-        color: #999;
-        justify-content: space-around;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 30rem;
-        position: relative;
-        margin-bottom: 17rem;
-        text-decoration: none;
-    }
-    .supportme a:hover {
-        text-decoration: underline;
     }
 }

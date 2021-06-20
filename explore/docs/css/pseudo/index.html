@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="index.css" rel="stylesheet" type="text/css">
-    <link href="../../Global/Global.css" rel="stylesheet" type="text/css">
+    <link href="../../../../Global/Global.css" rel="stylesheet" type="text/css">
     <title>Pseudo, Elements and Classes | Coming Soon!</title>
 </head>
 
@@ -151,7 +151,7 @@
                 <p> 
                     Use with any text element
                     ::first-letter does exactally what is says. It selects the first letter of a text element, for example:<br>
-                    Selected Content<br>
+                    Selected content<br>
                     ::first-letter selects the "S" but not the "C" as it selects the first letter at the start of the content
                 </p>
             </div>
@@ -160,7 +160,11 @@
                     ::first-line
                 </h5>
                 <p>
-                    fil
+                    Use with any text element
+                    ::first-line does exactally what is says. It selects the first letter of a text element, for example:<br>
+                    Selected content<br>
+                    Other selected content<br>
+                    ::first-line selects "Selected Content" but not "Other selected content" as it selects the first letter at the start of the content
                 </p>
             </div>
             <div>
@@ -168,7 +172,10 @@
                     ::placeholder
                 </h5>
                 <p>
-                    fil
+                    Use with any input element
+                    ::placeholder is exactally it, it styles the text placeholder that is insterted into a input element. Once the user interacts with the input element the placeholder is removed and so is the placeholder styling, e.g:<br>
+                    Without: <input placeholder="Input"></input><br>
+                    With <input class="placeholder" placeholder="Input"></input>
                 </p>
             </div>
             <div>
