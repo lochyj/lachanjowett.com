@@ -1,5 +1,6 @@
 * {
     color: #000;
+    max-width: 90vw;
 }
 
 .title {
@@ -73,8 +74,4 @@ li {
 
 .pc div {
     margin-bottom: 4vh;
-}
-
-.placeholder ::placeholder {
-    color: rgb(235, 34, 34);
 }
