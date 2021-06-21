@@ -18,16 +18,20 @@
 .hiw-p {
     margin-left: 5vw;
     max-width: 90vw;
-    margin-bottom: 20vh;
-}
-
-li {
-    list-style: none;
+    margin-bottom: 13vh;
+    font-size: 1.3rem;
+    padding-bottom: 4vh;
+    border-bottom: 1px solid #000;
 }
 
 .pec-div {
     margin-left: 4vw;
     margin-bottom: 10vh;
+    font-size: 1.3rem;
+}
+
+li {
+    list-style: none;
 }
 
 .pe-h2 {
@@ -42,6 +46,8 @@ li {
 .pe {
     margin-left: 4vw;
     font-size: 1.25rem;
+    border-top: 1px solid #000;
+    padding-top: none;
 }
 
 .pe h2 {
@@ -51,11 +57,12 @@ li {
 }
 
 .pe h5 {
-    font-size: 1.7rem
+    font-size: 1.7rem;
+    margin-top: 6vh;
 }
 
 .pe div {
-    margin-bottom: 4vh;
+    padding-bottom: 2vh;
 }
 
 .pc {
@@ -70,6 +77,7 @@ li {
 
 .pc h5 {
     font-size: 1.7rem;
+    margin-top: 6vh;
 }
 
 .pc div {
