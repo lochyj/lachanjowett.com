@@ -1,0 +1,31 @@
+* {
+    color: #000;
+    max-width: 90vw;
+}
+
+.title {
+    margin-bottom: 15vh;
+    display: flex;
+    align-items: left;
+    font-size: 1.5rem;
+}
+
+.hiw {
+    margin-left: 5vw;
+    font-size: 1.5rem;
+}
+
+.hiw-p {
+    margin-left: 5vw;
+    max-width: 90vw;
+    margin-bottom: 13vh;
+    font-size: 1.3rem;
+    padding-bottom: 4vh;
+    border-bottom: 1px solid #000;
+}
+
+.pec-div {
+    margin-left: 4vw;
+    margin-bottom: 10vh;
+    font-size: 1.3rem;
+}

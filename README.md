@@ -7,8 +7,7 @@ Take my stuff, Please.. it would be an honour for anybody to even care to give a
 
 ## Colours
 
-Prussian blue
-hex #999, cream / off white
+can't be bothered
 
 ## Upcoming
 
