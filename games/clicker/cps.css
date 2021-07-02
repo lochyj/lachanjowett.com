@@ -21,6 +21,7 @@ button {
     min-height: 20vh;
     border: none;
     border-radius: 3vh;
+    background-color: white;
 }
 
 button.reset{
