@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="cps.css">
+    <title>Clicker</title>
+</head>
+<body>
+    <script>
+        function incrementValue() {
+            var val = parseInt(document.getElementById('number').innerHTML);
+            if (val >= 150) {
+                var value = parseInt(document.getElementById('number').innerHTML, 10);
+                value = isNaN(value) ? 0 : value;
+                value++;
+                document.getElementById('number').innerHTML = value + '!';
+            }
+            else {
+                var value = parseInt(document.getElementById('number').innerHTML, 10);
+                value = isNaN(value) ? 0 : value;
+                value++;
+                document.getElementById('number').innerHTML = value;
+            }
+            if (val >= 25) {
+                document.getElementById('com').innerHTML = 'Mmnk';
+            }
+            if (val >= 75) {
+                document.getElementById('com').innerHTML = 'Sure';
+            }
+            if (val >= 100) {
+                document.getElementById('com').innerHTML = 'Meh';
+            }
+            if (val >= 150) {
+                document.getElementById('com').innerHTML = 'Ok.';
+            }
+            if (val >= 200) {
+                document.getElementById('com').innerHTML = 'Maybe?';
+            }
+            if (val >= 220) {
+                document.getElementById('com').innerHTML = 'Nice!';
+            }
+            if (val >= 300) {
+                document.getElementById('com').innerHTML = 'Pure commitment!';
+            }
+            if (val >= 347) {
+                document.getElementById('com').innerHTML = 'Casual 347 because yes';
+            }
+            if (val >= 348) {
+                document.getElementById('com').innerHTML = 'Pure Commitment!';
+            }
+            if (val >= 400) {
+                document.getElementById('com').innerHTML = 'Are you ok?';
+            }
+            if (val >= 467) {
+                document.getElementById('com').innerHTML = 'Maybe now?';
+            }
+            if (val >= 500) {
+                document.getElementById('com').innerHTML = "Don't you have homework?";
+            }
+            if (val >= 550) {
+                document.getElementById('com').innerHTML = "I don't think it does anything";
+            }
+            if (val >= 600) {
+                document.getElementById('com').innerHTML = 'MAD MAN';
+            }
+            if (val >= 700) {
+                document.getElementById('com').innerHTML = 'CRAZY!';
+            }
+            if (val >= 800) {
+                document.getElementById('com').innerHTML = 'Are you sure you want to go there?';
+            }
+            if (val >= 900) {
+                document.getElementById('com').innerHTML = 'You went there!';
+            }
+            if (val >= 1000) {
+                document.getElementById('com').innerHTML = 'Ludicrous clicking!';
+            }
+            if (val >= 1050) {
+                document.getElementById('com').innerHTML = 'How much spare time do you have?';
+            }
+            if (val >= 2000) {
+                document.getElementById('com').innerHTML = "Honestly, I'm impressed!";
+            }
+            if (val >= 100000) {
+                document.getElementById('com').innerHTML = 'Inspect element, Autoclicker or just Commited?';
+            }
+        }
+        function reset() {
+            document.getElementById('number').innerHTML = '0';
+        }
+
+    </script>
+    <div>   
+        <h5 id="com">Come on...</h5>
+        <h1 type="text" id="number">0</h1>
+        <button onclick="incrementValue()" value="Increment Value">Click here!</button>
+    </div>
+    <button class="reset" onclick="reset()">Reset score</button>
+</body>
+</html>

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: linear-gradient( 146.11deg, #fc8320 20.43%, rgba(255, 255, 255, 0) 79.91%), linear-gradient(202.81deg, #ffe5ad 38.99%, rgba(255, 255, 255, 0) 85.2%), #532020;
+}
+
+div {
+    margin-top: 30vh;
+    font-size: 1.4rem;
+}
+
+button {
+    min-width: 20vw;
+    min-height: 20vh;
+    border: none;
+    border-radius: 3vh;
+}
+
+button.reset{
+    margin-top: 4vh;
+    min-width: 10vw;
+    min-height: 7vh;
+    margin-bottom: 16.6vh;
+}
+
+button:active{
+    background-color: #c0c0c0;
+}
