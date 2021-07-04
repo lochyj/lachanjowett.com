@@ -24,13 +24,18 @@ button {
     background-color: white;
 }
 
-button.reset{
+button.reset {
     margin-top: 4vh;
     min-width: 10vw;
     min-height: 7vh;
     margin-bottom: 16.6vh;
 }
 
-button:active{
+button:active {
     background-color: #c0c0c0;
+}
+
+.doggo {
+    max-width: 45px;
+    max-height: 45px;
 }
