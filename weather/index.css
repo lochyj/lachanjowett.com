@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
+/* ColorPallet: Primary: #dadada; Secondary: #31BA69; Tertiary: #8CFBDE;*/
+
 *{
     font-family: 'Varela Round', sans-serif;
 }
 
 body {
-    background-color: #111;
-    background-image: url('rainy.jpg');
-    background-size: cover;
+    background-color: #dadada;
 }
 
 .con {
@@ -20,7 +20,6 @@ body {
 }
 
 .top{
-    background-color: rgba(255, 255, 255, 0.722);
     border-radius: 30px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -28,7 +27,6 @@ body {
 }
 .top button{
     border: none;
-    background-color: rgba(255, 255, 255, 0.722);
 }
 
 .top input{
@@ -36,12 +34,11 @@ body {
     min-height: 6vh;
     min-width: 20vw;
     border-radius: 15px;
-    background-color: rgba(255, 255, 255, 0.922);
+    background-color: #31BA69;
     padding-left: 13px;
 }
 
 .bottom{
-    background-color: rgba(255, 255, 255, 0.722);
     border-radius: 30px;
 }
 
