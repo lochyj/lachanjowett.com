@@ -1,0 +1,42 @@
+* {
+    color: #000;
+    max-width: 90vw;
+}
+
+.title {
+    margin-bottom: 15vh;
+    display: flex;
+    align-items: left;
+    font-size: 1.5rem;
+}
+
+.a {
+    margin-left: 5vw;
+    font-size: 1.5rem;
+}
+
+.a-p {
+    margin-left: 5vw;
+    max-width: 90vw;
+    margin-bottom: 7vh;
+    font-size: 1.3rem;
+    padding-bottom: 4vh;
+    border-bottom: 1px solid #000;
+}
+
+.steps {
+    margin-left: 5vw;
+}
+
+.steps h2 {
+    font-size: 2rem;
+}
+
+.numstep {
+    font-size: 1.3rem;
+}
+
+.all {
+    margin-top: 5vh;
+    font-size: 1.9rem;
+}

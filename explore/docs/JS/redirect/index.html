@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Heading" content="JS - Auto redirect">
+    <meta name="Desctiption" content="Automatically redirect users from one page to another">
+    <meta name="keywords" content="JS, js, Js, redirect, auto redirect, auto, automatic, automatic redirect, simple">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet" type="text/css">
+    <link href="../../../../Global/Global.css" rel="stylesheet" type="text/css">
+    <link href="../../../../Global/ico/LJlogo.svg" rel="icon">
+    <title>Javascript redirect</title>
+</head>
+
+<body>
+    <h2 class="title">
+        Redirect with JS
+    </h2>
+    <div class="a">
+        <h2>
+            How do I automatically redirect people from one page to another?
+        </h2>
+    </div>
+    <div class="a-p">
+        <p>
+            Well the answer is very very simple! All you need to do is follow the simple steps below.
+        </p>
+    </div>
+    <div class="steps">
+        <h2>Redirect:</h2>
+        <div class="numstep">
+            <p>
+                1. Add this code to a script element in the body of the page: <br> setTimeout(() =>{window.location.replace("[page url]");}, [wait time])
+            </p>
+            <p>
+                2. Replace [page url] with the url of the page you want to redirect to
+            </p>
+            <p>
+                3. Replace [wait time] with the time you want it to take (in seconds) and then add 3 zeros to it, for example:<br>3 seconds would be 3000<br>or if you want it to imediately redirect then remove the time and the latter comma
+            </p>
+            <p class="eg">
+                <b>Example usage:</b><br> &lt!DOCTYPE html&gt<br>&lthtml lang="en"&gt<br>&lthead&gt<br>&lt/head&gt<br>&ltbody&gt<br>&ltscript&gt<br>setTimeout(() =>{window.location.replace("example.com");}, 2000)<br>&lt/script&gt<br>&lt/body&gt<br>&lt/html&gt
+            </p>
+        </div>
+        <h2 class="all">
+            Thats all!
+        </h2>
+    </div>
+</body>
+
+</html>
