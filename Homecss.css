@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-* {
+<<<<<<< HEAD * {
     color: #323bb8;
     background: #d8ffff;
 }
@@ -16,7 +15,8 @@
     border-radius: 10px;
     margin-right: 10vw;
     margin-left: 10vw;
-=======
+}
+
 @media only screen and (min-width: 600px) {
     .a h2 {
         display: flex;
@@ -83,6 +83,7 @@
         margin-right: 10vw;
     }
 }
+
 @media only screen and (max-width: 600px) {
     .a h2 {
         align-items: center;
@@ -122,7 +123,6 @@
         padding: 5px;
         border-radius: 6px;
     }
-
     .c {
         margin-top: 22vh;
         margin-left: 5vw;
@@ -140,5 +140,5 @@
         border-radius: 10px;
         margin-right: 10vw;
     }
->>>>>>> 11a102a729706dd8102e3a5c27c62ae14d453988
+    >>>>>>>11a102a729706dd8102e3a5c27c62ae14d453988
 }

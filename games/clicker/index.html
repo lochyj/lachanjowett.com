@@ -10,8 +10,9 @@
 <body>
     <script>
         function incrementValue() {
+            const com = document.getElementById('com').innerHTML
             var val = parseInt(document.getElementById('number').innerHTML);
-            if (val >= 150) {
+            if (val >= 1000) {
                 var value = parseInt(document.getElementById('number').innerHTML, 10);
                 value = isNaN(value) ? 0 : value;
                 value++;
@@ -24,76 +25,79 @@
                 document.getElementById('number').innerHTML = value;
             }
             if (val >= 25) {
-                document.getElementById('com').innerHTML = 'Mmnk';
+                document.getElementById('com').innerHTML = 'Why?';
             }
             if (val >= 75) {
-                document.getElementById('com').innerHTML = 'Sure';
+                document.getElementById('com').innerHTML = 'Please stop clicking';
             }
             if (val >= 100) {
-                document.getElementById('com').innerHTML = 'Meh';
+                document.getElementById('com').innerHTML = 'Ok, now youre annoying me';
             }
             if (val >= 150) {
-                document.getElementById('com').innerHTML = 'Ok.';
+                document.getElementById('com').innerHTML = 'JUST stop ok before I get mad';
             }
             if (val >= 200) {
-                document.getElementById('com').innerHTML = 'Maybe?';
+                document.getElementById('com').innerHTML = 'What did i tell you';
             }
             if (val >= 220) {
-                document.getElementById('com').innerHTML = 'Nice!';
+                document.getElementById('com').innerHTML = 'Come on, just stop';
             }
             if (val >= 300) {
-                document.getElementById('com').innerHTML = 'Pure commitment!';
+                document.getElementById('com').innerHTML = 'STOP PLEASE';
             }
-            if (val >= 347) {
-                document.getElementById('com').innerHTML = 'Casual 347 because yes';
-            }
-            if (val >= 348) {
-                document.getElementById('com').innerHTML = 'Pure Commitment!';
+            if (val >= 350) {
+                document.getElementById('com').innerHTML = 'Why are you doing this?';
             }
             if (val >= 400) {
-                document.getElementById('com').innerHTML = 'Are you ok?';
+                document.getElementById('com').innerHTML = 'Ok I guess you can click the button';
             }
-            if (val >= 467) {
-                document.getElementById('com').innerHTML = 'Maybe now?';
+            if (val >= 430) {
+                document.getElementById('com').innerHTML = 'Its still under construction so dont click too hard';
+            }
+            if (val >= 475) {
+                document.getElementById('com').innerHTML = 'Ok have fun... if clicking can be fun';
             }
             if (val >= 500) {
-                document.getElementById('com').innerHTML = "Don't you have homework?";
+                document.getElementById('com').innerHTML = "Hello?";
             }
             if (val >= 550) {
                 document.getElementById('com').innerHTML = "I don't think it does anything";
             }
             if (val >= 600) {
-                document.getElementById('com').innerHTML = 'MAD MAN';
+                document.getElementById('com').innerHTML = 'Wow nice';
             }
             if (val >= 700) {
-                document.getElementById('com').innerHTML = 'CRAZY!';
+                document.getElementById('com').innerHTML = 'Meh';
             }
             if (val >= 800) {
-                document.getElementById('com').innerHTML = 'Are you sure you want to go there?';
+                document.getElementById('com').innerHTML = 'Nice I guess';
             }
             if (val >= 900) {
-                document.getElementById('com').innerHTML = 'You went there!';
+                document.getElementById('com').innerHTML = 'Cool, maybe?';
             }
             if (val >= 1000) {
-                document.getElementById('com').innerHTML = 'Ludicrous clicking!';
+                document.getElementById('com').innerHTML = 'Very nice... 2000 next?';
             }
             if (val >= 1050) {
                 document.getElementById('com').innerHTML = 'How much spare time do you have?';
             }
             if (val >= 2000) {
-                document.getElementById('com').innerHTML = "Honestly, I'm impressed!";
+                document.getElementById('com').innerHTML = "Good job, if this is a job?";
             }
             if (val >= 3000) {
-                document.getElementById('com').innerHTML = 'Are you on drugs or something?';
+                document.getElementById('com').innerHTML = 'Are you ok? you seem to be clicking alot';
             }
             if (val >= 4000) {
-                document.getElementById('com').innerHTML = 'Seesh my guy are you ok?';
+                document.getElementById('com').innerHTML = 'Nice lol';
             }
             if (val >= 5000) {
-                document.getElementById('com').innerHTML = 'This is full on!';
+                document.getElementById('com').innerHTML = 'Ok, ill admit im kinda impressed';
             }
             if (val >= 6000) {
-                document.getElementById('com').innerHTML = 'Lmao you kinda just wasted so much time';
+                document.getElementById('com').innerHTML = 'huh your still here, idk what to put here';
+            }
+            if (val >= 6969) {
+                document.getElementById('com').innerHTML = 'Nice';
             }
             if (val >= 7000) {
                 document.getElementById('com').innerHTML = 'Little bit tedious aint it.';
@@ -107,20 +111,20 @@
             if (val >= 8850) {
                 document.getElementById('com').innerHTML = 'So here is a cute doggo:  <image src="doggo.jpg" class="doggo"></image>';
             }
-            if (val >= 8870) {
-                document.getElementById('com').innerHTML = 'All good things come to an end though';
+            if (val >= 8900) {
+                document.getElementById('com').innerHTML = 'But... all good things come to an end';
             }
             if (val >= 9000) {
-                document.getElementById('com').innerHTML = 'lol why are you still here?';
+                document.getElementById('com').innerHTML = 'Why are you still here?';
             }
             if (val >= 10000) {
                 document.getElementById('com').innerHTML = 'Just leave... there is nothing for another 90,000 clicks, or is there?';
             }
             if (val >= 10100) {
-                document.getElementById('com').innerHTML = "Nope the isn't anything here lol";
+                document.getElementById('com').innerHTML = "Nope there isn't anything here lol";
             }
             if (val >= 100000) {
-                document.getElementById('com').innerHTML = 'Inspect element, Autoclicker or just Commited?';
+                document.getElementById('com').innerHTML = 'Stop auto clicking, please';
             }
         }
         function reset() {
@@ -129,7 +133,7 @@
 
     </script>
     <div>   
-        <h5 id="com">Come on...</h5>
+        <h5 id="com">Don't do it...</h5>
         <h1 type="text" id="number">0</h1>
         <button onclick="incrementValue()" value="Increment Value">Click here!</button>
     </div>
