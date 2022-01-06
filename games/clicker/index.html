@@ -10,7 +10,7 @@
 <body>
     <script>
         function incrementValue() {
-            const com = document.getElementById('com').innerHTML
+            const com = document.getElementById('com')
             var val = parseInt(document.getElementById('number').innerHTML);
             if (val >= 1000) {
                 var value = parseInt(document.getElementById('number').innerHTML, 10);
@@ -129,6 +129,7 @@
         }
         function reset() {
             document.getElementById('number').innerHTML = '0';
+            com.innerHTML = `Don't do it...`;
         }
 
     </script>
