@@ -6,14 +6,14 @@
     font-family: 'Andika New Basic', sans-serif;
 }
 
-.f_f-body-homelink {
+.a {
     display: flex;
     text-align: center;
     width: 100%;
     color: #222;
 }
 
-.linkhome {
+.b {
     text-decoration: none;
     list-style: none;
     color: #222;
