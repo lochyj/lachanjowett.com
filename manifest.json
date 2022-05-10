@@ -1,0 +1,14 @@
+{
+    "short_name": "Lachlan",
+    "name": "Lachlanjowett.com",
+    "icons": [{
+        "src": "/favicon.ico",
+        "type": "image/ico",
+        "sizes": "32x32"
+    }],
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#ffffff",
+    "description": "Lachlan Jowett - Hey there, I'm lachlan, Web developer and Student"
+}

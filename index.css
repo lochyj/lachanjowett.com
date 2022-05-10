@@ -28,33 +28,6 @@
     background: #999;
 }
 
-HEAD * {
-    color: #323bb8;
-    background: #d8ffff;
-}
-
-.ca {
-    font-size: 3rem;
-    border-radius: 10px;
-    margin-left: 10vw;
-    margin-top: 30vh;
-}
-
-.cb {
-    font-size: 2rem;
-    border-radius: 10px;
-    margin-right: 10vw;
-    margin-left: 10vw;
-}
-
-.link {
-    color: black;
-}
-
-.link:any-link {
-    color: black;
-}
-
 @media only screen and (min-width: 600px) {
     .a h2 {
         display: flex;
@@ -63,45 +36,6 @@ HEAD * {
         font-size: 2.5rem;
         margin-left: 1rem;
         color: #000000;
-    }
-    .b {
-        font-size: 3rem;
-        margin-left: 10vw;
-        margin-right: auto;
-        margin-top: 15vh;
-        background-color: #d4d4d4;
-        border-radius: 10px;
-        margin-right: 20vh;
-        padding-bottom: 4vh;
-    }
-    .b h1 {
-        font-size: 5rem;
-        color: #000000;
-        border-radius: 10px;
-        padding-left: 11px;
-    }
-    .b p {
-        font-size: 2rem;
-        padding-left: 11px;
-    }
-    .b a {
-        font-size: 3rem;
-        color: #000000;
-        margin-left: 11px;
-        margin-top: 5vh;
-        padding: 5px;
-        border-radius: 6px;
-    }
-    .b a:hover {
-        color: #1d1d1d;
-        border-radius: 6px;
-        text-decoration: none;
-    }
-    .c {
-        margin-top: 30vh;
-        margin-left: 10vw;
-        margin-bottom: 7vh;
-        border-radius: 10px;
     }
     .ca {
         font-size: 3rem;
@@ -119,17 +53,12 @@ HEAD * {
 }
 
 @media only screen and (max-width: 600px) {
-    .c {
-        margin-top: 22vh;
-        margin-left: 5vw;
-        margin-bottom: 7vh;
-        border-radius: 10px;
-    }
     .ca {
         font-size: 1.9rem;
         color: #000000;
         border-radius: 10px;
         max-width: 90vw;
+        margin-top: 15vh;
     }
     .cb {
         font-size: 1.3rem;
@@ -138,5 +67,8 @@ HEAD * {
     }
     .cb p {
         font-size: 2.2rem;
+    }
+    .cb a {
+        font-size: 1.7rem;
     }
 }
