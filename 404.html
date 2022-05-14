@@ -11,16 +11,33 @@
 </head>
 
 <body>
-    <script>
-        setTimeout(() =>{window.location.replace("https://www.lachlanjowett.com");}, 3000)
-    </script>
     <div class="a">
-        <h1 href="b">
+        <h1 class="b">
             404 - Page not found
         </h1>
+        <br>
         <p>
-            Hold up.. looks like we have come to a dead end:
+            Hold up a sec...
         </p>
-        <p>Redirecting...</p>
+        <br>
+        <p>Redirecting in <span id="time">4</span></p>
     </div>
+    <script type="text/javascript">
+        var el = document.getElementById("time");
+        setTimeout(() => {
+            window.location.replace("https://www.lachlanjowett.com");
+        }, 4000)
+        setTimeout(() => {
+            el.innerText = "3";
+        }, 1000)
+        setTimeout(() => {
+            el.innerText = "2";
+        }, 2000)
+        setTimeout(() => {
+            el.innerText = "1";
+        }, 3000)
+        setTimeout(() => {
+            el.innerText = "0";
+        }, 4000)
+    </script>
 </body>
