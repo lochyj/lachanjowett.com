@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Andika New Basic', sans-serif;
-    background-color: #ffffff;
+    font-family: 'Dela Gothic One', cursive;
+    background-color: whitesmoke;
+    color: #11111a;
 }
 
 ::selection {
-    background-color: rgb(14, 14, 14);
-    color: #ffffff;
+    background-color: #a4b2df;
 }
 
 ::-webkit-scrollbar {
@@ -58,7 +58,7 @@
         color: #000000;
         border-radius: 10px;
         max-width: 90vw;
-        margin-top: 15vh;
+        margin-top: 5vh;
     }
     .cb {
         font-size: 1.3rem;
@@ -67,8 +67,5 @@
     }
     .cb p {
         font-size: 2.2rem;
-    }
-    .cb a {
-        font-size: 1.7rem;
     }
 }
