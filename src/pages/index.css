@@ -1,0 +1,17 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "avatar", "name", "links";
+    grid-gap: 1rem;
+}
+
+.header > * {
+    display: inline-flex;
+}
+
+.avatar {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 256px;
+    height: 256px;
+}
