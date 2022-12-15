@@ -1,17 +1,21 @@
-.header {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: "avatar", "name", "links";
-    grid-gap: 1rem;
-}
-
-.header > * {
-    display: inline-flex;
-}
-
 .avatar {
-    border: 1px solid white;
+    border: 2px solid;
     border-radius: 50%;
+    padding: 7px;
     width: 256px;
     height: 256px;
+}
+.separator h2 {
+    width: 100%;
+    font-size: 2.5rem;
+    margin-top: 10vh;
+
+}
+
+header h2 {
+    display: flex;
+}
+
+h2 a {
+    font-weight: bolder;
 }
