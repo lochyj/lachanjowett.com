@@ -1,21 +1,24 @@
-.avatar {
-    border: 2px solid;
-    border-radius: 50%;
-    padding: 7px;
-    width: 256px;
-    height: 256px;
-}
-.separator h2 {
-    width: 100%;
-    font-size: 2.5rem;
-    margin-top: 10vh;
-
+.pageWrapper {
+    height: 100%;
 }
 
-header h2 {
+.landing {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.logo {
+    padding: 5vw;
+}
+
+.quickInfo {
     display: flex;
-}
-
-h2 a {
-    font-weight: bolder;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: 5vw;
+    line-height: 2.2rem;
+    grid-column: 2;
 }

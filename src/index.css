@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -18,7 +20,7 @@
 }
 
 ::selection {
-  background-color: #a4b2df;
+  background-color: #8598d8;
 }
 
 #root {
@@ -52,9 +54,11 @@ body {
   min-height: 100vh;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+h2 {
+  font-size: 3.5em;
+  line-height: 1.05em;
+  letter-spacing: -1.5px;
+  font-family: 'Paytone One', sans-serif;
 }
 
 .img {
@@ -90,7 +94,7 @@ button:focus-visible {
 @media (prefers-color-scheme: dark) {
   :root {
     color: rgba(255, 255, 255, 0.87);
-    background-color: #242424;
+    background-color: #202020;
     border-color: #fff;
   }
   a:hover {
@@ -99,4 +103,15 @@ button:focus-visible {
   button {
     background-color: #1a1a1a;
   }
+  ::selection {
+    background-color: #4b68ce;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .quickInfo {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  
 }
