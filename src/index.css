@@ -23,11 +23,19 @@
   background-color: #8598d8;
 }
 
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+
+  overflow-x: hidden;
+}
+
 #root {
-  max-width: 1280px;
   margin: 0 auto;
   text-align: center;
-  padding: 2rem;
 }
 
 a {
@@ -43,15 +51,6 @@ a:hover {
 
 p {
   font-size: 1.2rem;
-  font-weight: bold;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
 }
 
 h2 {
@@ -61,34 +60,34 @@ h2 {
   font-family: 'Paytone One', sans-serif;
 }
 
-.img {
-  width: 35px;
-  display: inline-block;
-  margin: 0 0.5em;
-}
-
-picture {
-  padding: none;
-  margin: none;
-}
-
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
+  padding: 10px 20px;
+
+  border-radius: 10px;
+
+  font-size: 1rem;
   font-weight: 500;
-  font-family: inherit;
+
+  border: 2px solid #323bec;
   background-color: #f9f9f9;
   cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
   transition: border-color 0.25s;
 }
+
 button:hover {
-  border-color: #323bec;
+  backdrop-filter: blur(25px);
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.acrylic {
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
 }
 
 @media (prefers-color-scheme: dark) {
