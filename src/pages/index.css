@@ -11,7 +11,7 @@
     height: fit-content;
 
     grid-template-columns: 15% 70% 15%;
-    grid-template-rows: 100vh 100vh;
+    grid-template-rows: 100vh 100% 100%;
 
 }
 
@@ -105,6 +105,7 @@
     grid-row: 2;
 
     height: 100%;
+    min-height: min-content;
     width: auto;
 
     margin: auto;
@@ -121,12 +122,49 @@
 
 .about {
     height: 100%;
-    background-image: linear-gradient(to top right, #ff0000, #f9f9f9);
+    margin-bottom: 20%;
+
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.experienceHeading {
+    grid-column: 1;
+    grid-row: 3;
+
+    height: 100%;
+    min-height: min-content;
+    width: auto;
+
+    margin: auto;
+}
+
+.experienceHeading > h2 {
+    writing-mode: vertical-lr;
+    text-orientation: sideways;
+    transform: rotate(180deg);
+    font-size: 8rem;
+    line-height: 0;
+}
+
+.experience {
+    height: 100%;
+    margin-bottom: 20%;
+
+    grid-row: 3;
+    grid-column: 2;
 }
 
 .panel {
+    font: 1rem 'Nunito', sans-serif;
+
     padding: 5%;
     border-radius: 15px;
-    background-color: tomato;
     height: max-content;
+    font-size: 1.7rem;
+}
+
+.sentence {
+    font: 5rem 'Nunito', sans-serif;
+    font-family: 'Paytone One', sans-serif;
 }

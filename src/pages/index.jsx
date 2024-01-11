@@ -28,10 +28,38 @@ export default function Index() {
 
                 <div className="about">
 
-                    <div className="panel acrylic">
-                        Hello there!
+                    <span className="sentence">Hey 👋.</span>
+
+                    <div className="panel">
+                        I'm a highschool student at John Monash Science School.<br></br>
+                        I love Computer Science, Engineering and Networking.<br></br>
+                        I am <i>(currently)</i> a hobbyist programmer.<br></br>
+                    </div>
+                    <div className="panel">
+                        I mostly work on personal projects.<br></br>
+                        I love open source software and try to help where I can.<br></br>
+                        I daily drive Fedora Linux and I love it.<br></br>
+                    </div>
+                    <div className="panel">
+                        At the moment I am learning more about networking.<br></br>
+                        I'm also improving my web design skills.<br></br>
                     </div>
                 </div>
+
+                {/* <div className="experienceHeading">
+                    <h2>Experience</h2>
+                </div>
+
+                <div className="experience">
+                    <span className="sentence">What I've done.</span>
+                    <div className="panel">
+                        <div className="placement">
+                            <h3>2021</h3>
+                            <h4>John Monash Science School</h4>
+                            <p>Currently studying at JMSS.</p>
+                        </div>
+                    </div>
+                </div> */}
             </div>
         </div>
     )
