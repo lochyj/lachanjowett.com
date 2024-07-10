@@ -1,127 +1,128 @@
-@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&display=swap");
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
 
-  color-scheme: light dark;
-  color: #213547;
-  background-color: #ffffff;
+    color-scheme: light dark;
+    color: #213547;
+    background-color: #ffffff;
+    background-image: url("noise.svg");
+    background-size: auto;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
 
-  border-color: #1a1a1a;
+    border-color: #1a1a1a;
 }
 
 ::selection {
-  background-color: #8598d8;
+    background-color: #8598d8;
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
 
-  overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 #root {
-  margin: 0 auto;
-  text-align: center;
+    margin: 0 5vh;
+    text-align: center;
 }
 
 a {
-  font-weight: bolder;
-  font-size: 1.5rem;
-  color: #646cff;
-  text-decoration: inherit;
-  align-content: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: #646cff;
+    text-decoration: inherit;
+    align-content: center;
 }
 
 a > img {
-  margin-top: auto;
-  margin-bottom: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 a:hover {
-  color: #3b45fd;
+    color: #3b45fd;
 }
 
 p {
-  font-size: 1.2rem;
+    font-size: 1.2rem;
 }
 
 h2 {
-  font-size: 4.5em;
-  line-height: 1.05em;
-  letter-spacing: -1.5px;
-  font-family: 'Paytone One', sans-serif;
+    font-size: 4.5em;
+    line-height: 1.05em;
+    letter-spacing: -1.5px;
+    font-family: "Paytone One", sans-serif;
 }
 
 picture {
-  padding: none;
-  margin: none;
+    padding: none;
+    margin: none;
 }
 
 button {
-  padding: 10px 20px;
+    padding: 10px 20px;
 
-  border-radius: 10px;
+    border-radius: 10px;
 
-  font-size: 1rem;
-  font-weight: 500;
+    font-size: 1rem;
+    font-weight: 500;
 
-  border: 2px solid #323bec;
-  background-color: #f9f9f9;
-  cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(10px);
-  transition: border-color 0.25s;
+    border: 2px solid #323bec;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    transition: border-color 0.25s;
 }
 
 button:hover {
-  backdrop-filter: blur(25px);
+    backdrop-filter: blur(25px);
 }
 
 button:focus,
 button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+    outline: 4px auto -webkit-focus-ring-color;
 }
 
 .acrylic {
-  background-color: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    color: rgba(255, 255, 255, 0.87);
-    background-color: #202020;
-    border-color: #fff;
-  }
-  a:hover {
-    color: #535bf2;
-  }
-  button {
-    background-color: #1a1a1a;
-  }
-  ::selection {
-    background-color: #4b68ce;
-  }
+    :root {
+        color: #d1ccb6;
+        background-color: #202020;
+        border-color: #fff;
+    }
+    a:hover {
+        color: #535bf2;
+    }
+    button {
+        background-color: #1a1a1a;
+    }
+    ::selection {
+        background-color: #4b68ce;
+    }
 }
 
 @media screen and (max-width: 700px) {
-  .quickInfo {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-  }
-  
+    .quickInfo {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
 }
